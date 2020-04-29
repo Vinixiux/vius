@@ -1,5 +1,10 @@
 
 public class Imc {
+	
+	// my first program in java language
+	// this project didn't have user interaction
+	// the variables we're already declared
+	// the objective of this program is to classify pleople BMI/IMC
 
 	public static void main(String[] args) {
 		int peso = 82;
@@ -19,7 +24,7 @@ public class Imc {
 	    	   System.out.println("Obeso");
 	    	   
 	       }  else if (imc >= 40) {
-	    	   System.out.println("Obeso Mórbido");
+	    	   System.out.println("Obeso MÃ³rbido");
 	       }
 		
 	}
