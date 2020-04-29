@@ -1,5 +1,11 @@
 
 public class Progmedia {
+	
+	// program with no interaction with the user
+	// the objective of this program was find and print the first average of three numbers
+	// then find and print the average of three different numbers
+	// after that we sum the first with the second average and print
+	// and finally he finds and print an average of the two averages
 
 	public static void main(String[] args) {
 		
@@ -14,7 +20,7 @@ public class Progmedia {
 		prim = (med1[0] + med1[1] + med1[2]);
 		prim = prim / med1.length;
 		
-		System.out.println("A primeira média é: " + prim);
+		System.out.println("A primeira mÃ©dia Ã©: " + prim);
 		
 		int[] med2 = new int[3];
 		
@@ -25,15 +31,15 @@ public class Progmedia {
 		seg = (med2[0] + med2[1] + med2[2]);
 		seg = seg / med2.length;
 		
-		System.out.println("A segunda média é: " + seg);
+		System.out.println("A segunda mÃ©dia Ã©: " + seg);
 		
 		soma = prim + seg;
 		
-		System.out.println("A soma das médias é: " + soma);
+		System.out.println("A soma das mÃ©dias Ã©: " + soma);
 		
 		media = soma / 2;
 		
-		System.out.println("A média da primeira e segunda média é: " + media);
+		System.out.println("A mÃ©dia da primeira e segunda mÃ©dia Ã©: " + media);
 		
 	}
 
